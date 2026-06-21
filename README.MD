@@ -1,5 +1,5 @@
 # Instalación de librerías:
-uv pip install -r requetiments.txt
+uv pip install -r requirements.txt
 #Ejecución:
 uvicorn main:app --reload
 
