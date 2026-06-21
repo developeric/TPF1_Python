@@ -3,6 +3,7 @@ from pydantic import BaseModel
 import joblib
 import pandas as pd
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
 
 app = FastAPI(title="API de Predicción de Precios de Casas")
 
