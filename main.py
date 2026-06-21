@@ -20,7 +20,7 @@ columnas_entrenamiento = joblib.load('models/columnas_modelo.pkl')
 # 2. Mensaje de bienvenida en la ruta principal
 @app.get("/")
 def ruta_principal():
-    return {"mensaje": "¡Bienvenido a la API de Predicción de Precios de Eri y Nata!"}
+    return FileResponse("index.html")
 
 # 3. Estructura de validación de datos (El guardia de seguridad)
 class CasaInput(BaseModel):
