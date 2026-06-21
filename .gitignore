@@ -1,2 +1,5 @@
-.env
 .env/
+__pycache__/
+
+
+#el main.ipynb y dataset.csv ya no los necesita el servidor, solo necesita los .pkl

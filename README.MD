@@ -4,5 +4,5 @@ uv pip install -r requetiments.txt
 uvicorn main:app --reload
 
 Aclaración: Cabe recalcar que se usó Google Gemini y trabajos previamente realizados
-para flexibilizar el desarrollo y deployment del proyecto.
+para flexibilizar el desarrollo y deployment del proyecto. (FrontEnd está hecho totalmente con IA)
 
